@@ -30,78 +30,117 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="1"/>
+                                <connections>
+                                    <action selector="tap1Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FG2-46-jw5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgZ-Kn-0Zv" userLabel="2">
                                 <rect key="frame" x="115" y="243" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="2"/>
+                                <connections>
+                                    <action selector="tap2Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vOQ-2u-h6Q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amr-Yl-C0W" userLabel="3">
                                 <rect key="frame" x="214" y="243" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="3"/>
+                                <connections>
+                                    <action selector="tap3Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WaH-x4-Z1P"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roa-pb-KyI">
                                 <rect key="frame" x="16" y="175" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="4"/>
+                                <connections>
+                                    <action selector="tap4Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7d2-ng-yJL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqU-rK-BT3">
                                 <rect key="frame" x="115" y="175" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="5"/>
+                                <connections>
+                                    <action selector="tap5Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p87-9P-sw5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mz7-U5-Dbj">
                                 <rect key="frame" x="214" y="175" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="6"/>
+                                <connections>
+                                    <action selector="tap6Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v5k-MX-u4b"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNx-o2-bNo">
                                 <rect key="frame" x="16" y="107" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="7"/>
+                                <connections>
+                                    <action selector="tap7Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CUL-h6-P3j"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcP-Xe-GwB">
                                 <rect key="frame" x="115" y="107" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="8"/>
+                                <connections>
+                                    <action selector="tap8Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MMG-4m-eq4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cf5-Y4-od9">
                                 <rect key="frame" x="214" y="107" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="9"/>
+                                <connections>
+                                    <action selector="tap9Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="98y-y3-875"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C25-BS-hjm">
                                 <rect key="frame" x="16" y="306" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="0"/>
+                                <connections>
+                                    <action selector="tap0Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WSz-CB-5wj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgt-0B-Ko6">
                                 <rect key="frame" x="115" y="306" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="00"/>
+                                <connections>
+                                    <action selector="tap00Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9d3-NN-d47"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAz-id-AJv">
                                 <rect key="frame" x="214" y="306" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="C"/>
+                                <connections>
+                                    <action selector="tapClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q5b-TK-ddS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4W-zF-BWE">
                                 <rect key="frame" x="16" y="400" width="288" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="10％引きする"/>
+                                <connections>
+                                    <segue destination="Bst-SP-zCI" kind="modal" id="pkO-VQ-cru"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qcj-cu-HyA">
                                 <rect key="frame" x="16" y="69" width="288" height="34"/>
@@ -119,10 +158,68 @@
                             <constraint firstItem="qcj-cu-HyA" firstAttribute="top" secondItem="bFY-bi-uha" secondAttribute="bottom" constant="3" id="rOW-lQ-LUI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="priceField" destination="qcj-cu-HyA" id="6ut-D8-Fnp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="20.625" y="103.52112676056338"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="vTi-jb-dER">
+            <objects>
+                <viewController id="Bst-SP-zCI" customClass="ResultViewController" customModule="MyCalc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jGr-PF-gop"/>
+                        <viewControllerLayoutGuide type="bottom" id="MEs-ah-lge"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JWX-7W-mT5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="計算結果" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceZ-wt-0bM">
+                                <rect key="frame" x="16" y="40" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwF-Ih-l8O">
+                                <rect key="frame" x="16" y="64" width="288" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSC-JB-wxL" userLabel="別の計算をする">
+                                <rect key="frame" x="16" y="150" width="288" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="別の計算をする"/>
+                                <connections>
+                                    <action selector="tap1Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Au9-qb-8R9"/>
+                                    <segue destination="dAe-Gz-5yN" kind="unwind" unwindAction="restert:" id="zDT-fJ-3Qz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ceZ-wt-0bM" firstAttribute="top" secondItem="jGr-PF-gop" secondAttribute="bottom" constant="40" id="5Oz-1Q-OHH"/>
+                            <constraint firstItem="iwF-Ih-l8O" firstAttribute="leading" secondItem="LSC-JB-wxL" secondAttribute="leading" id="5ZL-Rj-df0"/>
+                            <constraint firstItem="iwF-Ih-l8O" firstAttribute="trailing" secondItem="JWX-7W-mT5" secondAttribute="trailingMargin" id="85N-ee-d6F"/>
+                            <constraint firstItem="iwF-Ih-l8O" firstAttribute="top" secondItem="ceZ-wt-0bM" secondAttribute="bottom" constant="3" id="Aq2-2m-xye"/>
+                            <constraint firstItem="iwF-Ih-l8O" firstAttribute="trailing" secondItem="LSC-JB-wxL" secondAttribute="trailing" id="Asj-fs-OBd"/>
+                            <constraint firstItem="LSC-JB-wxL" firstAttribute="top" secondItem="iwF-Ih-l8O" secondAttribute="bottom" constant="47" id="SUv-6O-6Of"/>
+                            <constraint firstItem="ceZ-wt-0bM" firstAttribute="leading" secondItem="iwF-Ih-l8O" secondAttribute="leading" id="kHf-df-4OM"/>
+                            <constraint firstItem="ceZ-wt-0bM" firstAttribute="leading" secondItem="JWX-7W-mT5" secondAttribute="leadingMargin" id="nVq-Z7-qUm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xLT-YP-wWf"/>
+                    <connections>
+                        <outlet property="resultField" destination="iwF-Ih-l8O" id="Biq-KT-6jm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SSF-fH-gTf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="dAe-Gz-5yN" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="448" y="763"/>
         </scene>
     </scenes>
     <resources>
